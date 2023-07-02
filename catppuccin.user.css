@@ -186,7 +186,67 @@
         .header-wrap {
             background-color: @mantle !important;
         }
-
+                
+        
+        .search-filters-wrap:before,
+        .search-filters-wrap:after,
+        .metabar__dropdowns-wrap:before,
+        .metabar__dropdowns-wrap:after
+        {
+            display: none !important;
+        }
+        
+        .module--carousel__right,
+        .module--carousel__left,
+        .module__toggle,
+        .tile-nav--sm,
+        .btn
+        {
+           border-color: @surface0  !important;
+           background-color: @surface0  !important;            
+        }
+        
+        .module--carousel__right:hover,
+        .module--carousel__left:hover,
+        .module__toggle:hover,
+        .tile-nav--sm:hover,
+        .btn:hover
+        {
+            border-color: @surface1  !important;
+            background-color: @surface1  !important;            
+        }
+             
+        .module--carousel__item,
+        .module__footer,
+        .module--about,
+        .tile__body,
+        .tile,
+        .detail__pane,   
+        .footer,
+        .vertical--map__sidebar__header,
+        .feedback-btn,
+        .vertical--map__search-this-area,
+        {
+            background-color: @mantle !important;
+            border-color: @mantle !important;            
+        }
+        
+        .vertical--map__sidebar__inner,
+        .place-list-item,
+        .footer__card,
+        .user-loc-tile,
+        {
+            background-color: @base !important;
+            border-color: @base !important;            
+        }
+        
+        .place-list-item:hover,
+        .user-loc-tile:hover,
+        {
+            background-color: @surface0 !important;
+            
+        }
+                
         .search--home,
         .search--header,
         .acp-wrap,
@@ -213,7 +273,7 @@
         }
 
         .search--hover .search__button {
-            background-color: @accent !important;
+            background-color: @accent-colour !important;
             color: @crust !important;
         }
 
@@ -258,8 +318,8 @@
         .dark-bg.is-vertical-tabs-exp #duckbar .zcm__link:not(.dropdown__button).is-active,
         .dark-bg.is-vertical-tabs-exp #duckbar .zcm__link:not(.dropdown__button).is-active:active,
         .dark-bg.is-vertical-tabs-exp #duckbar .zcm__link:not(.dropdown__button).is-active:hover {
-            color: @accent;
-            border-color: @accent;
+            color: @accent-colour;
+            border-color: @accent-colour;
         }
 
         .dropdown .dropdown__button {
@@ -306,13 +366,6 @@
             color: @text !important;
             background-color: @mantle !important;
         }
-
-        .search-filters-wrap:before {
-            display: none !important;
-        }
-        .search-filters-wrap:after {
-            display: none !important;
-        }
-      
+        
     }
 }
